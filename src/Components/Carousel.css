@@ -1,0 +1,32 @@
+.carousel-container {
+    max-width: 350px; /* Defina a largura máxima do carousel para ajustar conforme necessário */
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 175px;
+    height: 282px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 0 10px;
+  }
+  
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #000;
+  }
+  
+  /* Estilos adicionais para mobile */
+  @media screen and (max-width: 767px) {
+    .carousel-container {
+      max-width: 100%;
+    }
+  }
+  

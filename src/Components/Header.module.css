@@ -1,0 +1,99 @@
+.containerHeaderGeneral{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.containerHeaderGeneralInside{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerHeader{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 26px 0px 23px 0px;
+}
+
+.collaboraLogo{
+    width: 242px;
+    height: 46px;
+}
+
+.CtaHeaderButton{
+    background-color: #5386E4 ;
+    width: 240px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 160px;
+    color: white;
+    border: none;
+    transition: transform 0.5s;
+    cursor: pointer;
+
+}
+
+.CtaHeaderButton:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.CtaHeaderButton:hover,
+.CtaHeaderButton:focus {
+  outline: none;
+}
+
+.CtaHeaderButton:active {
+    transform: scale(1.0);
+  }
+
+.linearGradientContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.linearGradient {
+    width: 97%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, black, transparent);
+  }
+
+  @media screen and (max-width: 768px) {
+    .collaboraLogo{
+        width: 142px;
+        height: 46px;
+    }
+
+    .CtaHeaderButton{
+        background-color: #5386E4 ;
+        width: 120px;
+        height:25px;
+        display: flex;
+        padding: 0px;
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 160px;
+        margin: 0px;
+        color: white;
+        border: none;
+        transition: transform 0.5s;
+        cursor: pointer;
+    
+    }
+
+    .containerHeader{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin:0px;
+    }
+  }

@@ -1,0 +1,141 @@
+.FouthSection{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.generalContainerFouthSection{
+    display: flex;
+    justify-content: space-evenly;
+    width: 84%;
+}
+
+.imageNumeros{
+    width: 87px;
+    height: 317px;
+}
+
+.containerNumerosText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 317px;
+    width: 419px;
+}
+
+.containerInsideNumerosText{
+    display: flex;
+    height: 317px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerNumerosTexts{
+    display: flex;
+}
+
+.containerNumeros{
+    margin-right: 20px;
+}
+
+.firstParagraph{
+    font-size: 52px;
+    margin-top: 15px;
+    line-height: initial;
+}
+
+.thirdParagraph{
+    font-size: 18px;
+}
+
+.generalContainerFouthSectionText{
+    width:625px;
+}
+
+
+
+
+.spanNumeros{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.paragraphNumeros{
+    font-size: 15px;
+    color: #1C1C1C80;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+}
+
+button:active {
+    transform: scale(1.0);
+  }
+
+  .buttonCtaFourthSection{
+    width: 385px;
+    height: 65px;
+    padding: 16px 40px;
+    border-radius: 120px;
+    background-color: #008000;
+    filter: drop-shadow(0 25px 25px #00800040);
+    color: white;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+    border: none;
+    transition: transform 0.5s;
+  }
+
+  @media screen and (max-width: 768px) {
+    .generalContainerFouthSectionText{
+        width:100%;
+    }
+
+    .generalContainerFouthSection{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .firstParagraph{
+        font-size: 36px;
+        margin-top: 15px;
+        line-height: initial;
+    }
+    .paragraphNumeros{
+        font-size: 11px;
+        color: #1C1C1C80;
+    }
+
+    .containerCtaFourthSection{
+        display: flex;
+        justify-content: center;
+    }
+    .buttonCtaFourthSection{
+        width: 345px;
+        height: 65px;
+        padding: 0px;
+        border-radius: 120px;
+        background-color: #008000;
+        filter: drop-shadow(0 25px 25px #00800040);
+        color: white;
+        font-weight: 700;
+        margin-left: 0px;
+        margin-top: 30px;
+        font-size: 16px;
+        border: none;
+        transition: transform 0.5s;
+      }
+  }

@@ -1,0 +1,126 @@
+.GeneralContainerThirdSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.GeneralContainerCopyThirdSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContainerCopyImageThirdSection{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.ContainerCopyImageThirdSection p{
+    font-size: 52px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.ContainerSubtitleThirdSection p{
+    font-size: 52px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ContainerCopyImageThirdSection img{
+    width: 180px;
+    height: 33px;
+}
+
+.ParagraphThirdSection{
+    font-size: 16px;
+    font-weight: 600;
+}
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .businessTreatment {
+    width: 418px;
+    height: 373px;
+    margin-right: 21px;
+    border-radius: 16px;
+    border: 1px solid #1C1C1C;
+    overflow: hidden;
+  }
+  
+  .imageContainer {
+    width: 100%;
+    height: 60%;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #5386E4;
+    margin: 0px;
+  }
+  
+  .text {
+    margin-top: 8px;
+    text-align: center;
+    line-height: 22.4px;
+
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .ContainerCopyImageThirdSection p{
+      font-size: 40px;
+      font-weight: 600;
+      margin-right: 20px;
+      margin-bottom: 0px;
+  }
+  
+  .ContainerSubtitleThirdSection p{
+      font-size: 36px;
+      font-weight: 600;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+
+  .ContainerCopyImageThirdSection img{
+    width: 110px;
+    height: 33px;
+}
+
+.businessTreatment {
+  width: 378px;
+  height: 373px;
+  margin-right: 0px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #1C1C1C;
+  overflow: hidden;
+}
+  }

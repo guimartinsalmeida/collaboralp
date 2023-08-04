@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* SecondSection.module.css */
+
+/* Mobile carousel styles */
+.carouselContainer {
+  display: none;
+}
+
+/* Apply carousel styles on small screens */
+@media (max-width: 767px) {
+  .container {
+    display: block;
+  }
+
+  .carouselContainer {
+    display: block;
+  }
+
+  .card {
+    display: none;
+  }
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 282px;
+    margin: 10px;
+    border: 1px solid #1C1C1C;
+    border-radius: 16px;
+    padding: 10px;
+    transition: transform 0.5s;
+  }
+  .card:hover{
+    transform: scale(1.01);
+    transition: transform 0.5s;
+}
+  .image {
+    max-height: 150px;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .text {
+    
+    text-align: center;
+  }
+  
+p{
+    font-size: 16px;
+    font-weight: 600;
+}
+  span{
+    color: #5386E4;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-wrap: wrap; /* Permite que os cards fiquem em várias linhas */
+    }
+  
+    .card {
+      width: 45%; /* Define a largura dos cards para ajustar dois por linha */
+      margin: 10px 2.5%; /* Adiciona espaço entre os cards */
+    }
+
+    p{
+      font-size: 13px;
+      font-weight: 600;
+  }
+
+    .image {
+      max-height: 150px;
+    margin: 20px 0px 0px 0px;
+    }
+  }

@@ -1,0 +1,130 @@
+.containerFooter{
+    display: flex;
+    flex-direction: column;
+    height: 704px;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerMainFooter{
+    background-image: url(../mapaimg.png);
+    
+}
+
+.containerFooterLogos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.linearGradientContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.linearGradient {
+    width: 97%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, black, transparent);
+  }
+
+  .containerFooterLogosTexts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+
+.collaboraLogo{
+    width: 242px;
+    height: 46px;
+}
+
+.containerFooterCTA{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerLogosSocialMedia img{
+margin: 5px;
+}
+.containerParagraphSixthSection{
+    font-size: 52px;
+    font-weight: semi-bold;
+    line-height: initial;
+    text-align: center;
+}
+
+.copyWrithg{
+    margin: 0px;
+}
+
+
+.buttonCtaSixthSection{
+    width: 385px;
+    height: 65px;
+    padding: 16px 40px;
+    border-radius: 120px;
+    background-color: #008000;
+    filter: drop-shadow(0 25px 25px #00800040);
+    color: white;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+    border: none;
+    transition: transform 0.5s;
+}
+@media screen and (max-width: 768px) {
+    .containerParagraphSixthSection{
+        font-size: 25px;
+        font-weight: semi-bold;
+        line-height: initial;
+        text-align: center;
+    }
+
+    .containerFooter{
+        display: flex;
+        flex-direction: column;
+        height: 514px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerFooterLogosTexts{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .collaboraLogo{
+        width: 187px;
+        height: 46px;
+    }
+
+    .copyWrithg{
+        margin: 0px;
+        font-size: 8px;
+    }
+    .buttonCtaSixthSection{
+        width: 345px;
+        height: 65px;
+        padding: 0px;
+        border-radius: 120px;
+        background-color: #008000;
+        filter: drop-shadow(0 25px 25px #00800040);
+        color: white;
+        font-weight: 700;
+        margin-left: 0px;
+        margin-top: 30px;
+        font-size: 16px;
+        border: none;
+        transition: transform 0.5s;
+      }
+}
