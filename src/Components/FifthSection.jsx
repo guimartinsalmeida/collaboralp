@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './FifthSection.module.css'
-import Content from './ContentFifthSection'
 import ContentDos from './ContentDos'
 
 import './dos.css'
