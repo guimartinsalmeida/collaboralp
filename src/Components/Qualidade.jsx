@@ -13,8 +13,8 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Eficiência</span><br></br>
-          Equipe a sua disposição para qualquer projeto.
+          <span>Expertise</span><br></br>
+          Profissionais altamente qualificados e dedicados.
         </p>
         </div>
       </div>
@@ -26,8 +26,8 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Personalização</span><br></br>
-          Tudo é totalmente personalizado para sua empresa.
+          <span>Design</span><br></br>
+          Modernidade em cada detalhe.
         </p>
         </div>
       </div>
@@ -39,8 +39,8 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>ROI</span><br></br>
-          Investimento que gera retorno real.
+          <span>Conteúdo Cativante:</span><br></br>
+          Conectamos você com sua audiência.
         </p>
         </div>
       </div>
@@ -52,8 +52,8 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Economia de Tempo:</span><br></br>
-          Ganhe velocidade focando no Core Business.
+          <span>Estratégias de Destaque:</span><br></br>
+          Abordagens exclusivas para alcançar seus objetivos.
         </p>
         </div>
       </div>

@@ -13,8 +13,8 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Eficiência</span><br></br>
-          Equipe a sua disposição para qualquer projeto.
+          <span>Funis de Venda:</span><br></br>
+          Jornadas customizadas que conduzem à ação.
         </p>
         </div>
       </div>
@@ -26,8 +26,8 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Personalização</span><br></br>
-          Tudo é totalmente personalizado para sua empresa.
+          <span>Engajamento Estratégico:</span><br></br>
+          Comunicação relevante para nutrir e converter leads.
         </p>
         </div>
       </div>
@@ -39,8 +39,8 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>ROI</span><br></br>
-          Investimento que gera retorno real.
+          <span>Testes A/B Inteligentes:</span><br></br>
+          Otimização constante para taxas de conversão superiores.
         </p>
         </div>
       </div>
@@ -52,8 +52,8 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Economia de Tempo:</span><br></br>
-          Ganhe velocidade focando no Core Business.
+          <span>Resultados Mensuráveis:</span><br></br>
+          Análise precisa para acompanhar seu crescimento.
         </p>
         </div>
       </div>

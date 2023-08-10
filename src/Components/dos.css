@@ -35,6 +35,7 @@
     .paragrafo{
         text-align: center;
         font-size: 8px;
+        padding: 5px;
     }
     .container-general{
         width: 100%;

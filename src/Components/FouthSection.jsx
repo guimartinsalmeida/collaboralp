@@ -26,9 +26,9 @@ function FouthSection() {
 
             <div className={style.containerNumerosText}>
                 <div className={style.containerInsideNumerosText}>
-                    <p className={style.paragraphNumeros}> <span className={style.spanNumeros}>Presença estratégica <br/><br/></span>Você chegou nesta página através de um de nossos anúncio e agora é um lead em potencial para nós</p>
-                    <p className={style.paragraphNumeros}><span className={style.spanNumeros}>Know-how e constante análises de dados<br/><br/></span>Nossa comunicação foi toda planjeda para te fazer clicar em algum botão, isso se chama “conversão”</p>
-                    <p className={style.paragraphNumeros}><span className={style.spanNumeros}>Crescismento planejado<br/><br/></span>Vamos replicar para o seu negócio a mesma estratégia que utilizamos para nós e nos dez faturar muito dinheiro</p>
+                    <p className={style.paragraphNumeros}> <span className={style.spanNumeros}>Presença estratégica <br/></span>Você chegou nesta página através de um de nossos anúncio e agora é um lead em potencial para nós</p>
+                    <p className={style.paragraphNumeros}><span className={style.spanNumeros}>Know-how e constante análises de dados<br/></span>Nossa comunicação foi toda planjeda para te fazer clicar em algum botão, isso se chama “conversão”</p>
+                    <p className={style.paragraphNumeros}><span className={style.spanNumeros}>Crescismento planejado<br/></span>Vamos replicar para o seu negócio a mesma estratégia que utilizamos para nós e nos dez faturar muito dinheiro</p>
                 </div>
                 <div>
                 

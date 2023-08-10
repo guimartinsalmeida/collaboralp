@@ -13,8 +13,8 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Eficiência</span><br></br>
-          Equipe a sua disposição para qualquer projeto.
+          <span>Inteligência artificia</span><br></br>
+          Ferramentas de ponta para destacar seu negócio.
         </p>
         </div>
       </div>
@@ -26,8 +26,8 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Personalização</span><br></br>
-          Tudo é totalmente personalizado para sua empresa.
+          <span>Automações</span><br></br>
+          Otimizamos seus processos de vendas e marketing.
         </p>
         </div>
       </div>
@@ -39,8 +39,8 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>ROI</span><br></br>
-          Investimento que gera retorno real.
+          <span>Dados em Tempo Real:</span><br></br>
+          Tome decisões com dados e relatórios que fornecemos.
         </p>
         </div>
       </div>
@@ -52,8 +52,8 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Economia de Tempo:</span><br></br>
-          Ganhe velocidade focando no Core Business.
+          <span>Integração</span><br></br>
+          Tecnologias que se alinham perfeitamente às suas necessidades.
         </p>
         </div>
       </div>

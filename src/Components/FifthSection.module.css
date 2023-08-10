@@ -5,3 +5,22 @@ a{
     background-color: black;
     color: white;
 }
+
+
+.containerfifthSection{
+    display: flex;
+    justify-content: center;
+    width: 84%;
+    max-width: 1365px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+@media screen and (max-width: 768px) {
+    .containerfifthSection{
+        width: 100%;
+      padding: 10px;
+    }
+
+}
