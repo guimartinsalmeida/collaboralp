@@ -2,3 +2,15 @@ body{
     background: linear-gradient(to right, rgba(192, 212, 233, 0.5), #ffffff, rgba(192, 212, 233, 0.5));
 
 }
+
+.flex-column{
+    flex-direction: row !important;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-pills .nav-link{
+    background-color: #dce0e6;
+    text-align: center;
+}

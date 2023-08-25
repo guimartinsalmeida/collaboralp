@@ -4,6 +4,7 @@ import ContentDos from "./ContentDos";
 import Qualidade from "./Qualidade";
 import Conversao from "./Conversao";
 import Tecnologia from "./Tecnologias";
+import '../App.css'
 
 import "./dos.css";
 
@@ -20,7 +21,7 @@ const Tabeamento = () => {
             }}
           >
             <span>Preciso de uma equipe </span>
-            <br />
+           
             de marketing completo ?
           </p>
           <p style={{ margin: "0px" }}>Nada disso !</p>
@@ -29,8 +30,8 @@ const Tabeamento = () => {
             estrategia clara
           </p>
         </div>
-        <div style={{ width: "100%" }} class="row">
-          <div class="col-3">
+        <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center"}} class="row">
+          <div style={{width: '100%'}} class="col-3">
             <div
               class="nav flex-column nav-pills"
               id="v-pills-tab"
