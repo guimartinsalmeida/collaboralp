@@ -3,6 +3,11 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: #e9f0f7;
+    width: 100%;
+    z-index: 1000;
 }
 .containerHeaderGeneralInside{
     width: 90%;
