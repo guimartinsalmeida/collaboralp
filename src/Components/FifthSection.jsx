@@ -15,7 +15,7 @@ const Tabeamento = () => {
         <div>
           <p
             style={{
-              fontSize: "52px",
+              fontSize: "32px",
               fontWeight: "600",
               lineHeight: "initial",
             }}

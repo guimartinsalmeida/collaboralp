@@ -88,8 +88,8 @@ button:active {
     height: 65px;
     padding: 16px 40px;
     border-radius: 120px;
-    background-color: #008000;
-    filter: drop-shadow(0 25px 25px #00800040);
+    background-color: #1aba14;
+    filter: drop-shadow(0 25px 25px #1aba1440);
     color: white;
     font-weight: 700;
     margin-left: 20px;
@@ -118,7 +118,7 @@ button:active {
     }
 
     .firstParagraph{
-        font-size: 36px;
+        font-size: 32px;
         margin-top: 15px;
         line-height: initial;
     }
@@ -136,8 +136,8 @@ button:active {
         height: 65px;
         padding: 0px;
         border-radius: 120px;
-        background-color: #008000;
-        filter: drop-shadow(0 25px 25px #00800040);
+        background-color: #1aba14;
+        filter: drop-shadow(0 25px 25px #1aba1440);
         color: white;
         font-weight: 700;
         margin-left: 0px;

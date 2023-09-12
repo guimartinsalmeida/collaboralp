@@ -4,7 +4,7 @@ function FirstSection() {
   return (
     <div className={style.firstSectionGeneralContainer}>
         <div className={style.firstSectionMainTextContainer}>
-            <p className={style.firstSectionMainTextParagraph}>Colocamos <span>dinheiro</span><br /> no seu bolso</p>
+            <p className={style.firstSectionMainTextParagraph}>Colocamos <span>dinheiro</span> no seu bolso</p>
         </div>
         <div className={style.firstSectionMainTextContainerSubtitle}>
             <p>Nossa estratégia é uma verdadeira máquina de vendas.</p>

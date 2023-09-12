@@ -14,3 +14,25 @@ body{
     background-color: #dce0e6;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .containerfifthSection{
+        width: 100%;
+      padding: 10px;
+      display: flex !important;
+      align-items: center !important;
+    }
+
+    .flex-column{
+        flex-wrap: wrap !important;
+    }
+    .nav-pills .nav-link{
+        width: 46% !important;
+        display: flex !important; 
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .nav-pills .nav-link.active{
+        width: 46% !important;
+    }
+}
