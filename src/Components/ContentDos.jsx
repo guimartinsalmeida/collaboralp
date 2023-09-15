@@ -1,5 +1,5 @@
 import React from "react";
-import UserExperience from '../assets/UserExperience.png';
+import UserExperience from '../assets/image-removebg-preview.png';
 import './dos.css'
 function ContentDos() {
   return (
@@ -52,7 +52,7 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Economia de Tempo:</span><br></br>
+          <span>Tempo:</span><br></br>
           Ganhe velocidade focando no Core Business.
         </p>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import UserExperience from '../assets/UserExperience.png';
+import UserExperience from '../assets/image-removebg-preview.png';
 import './dos.css'
 function ContentDos() {
   return (
@@ -13,7 +13,7 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Inteligência artificia</span><br></br>
+          <span>AI</span><br></br>
           Ferramentas de ponta para destacar seu negócio.
         </p>
         </div>
@@ -39,7 +39,7 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Dados em Tempo Real:</span><br></br>
+          <span>Dados</span><br></br>
           Tome decisões com dados e relatórios que fornecemos.
         </p>
         </div>

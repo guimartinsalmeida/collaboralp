@@ -7,8 +7,10 @@ function Header() {
 <div className={styles.containerHeaderGeneralInside}>
       <div className={styles.containerHeader}>
       <img className={styles.collaboraLogo} src={logoCollabora} alt="" />
-        <button className={styles.CtaHeaderButton} >Comecar Agora</button>
-      
+      <a href='https://forms.zohopublic.com/collabora/form/hotlead/formperma/z4ma0moqGcjW96SXz6NJfXhOFiu56ipHvX_SlRzBBJg'>
+
+        <button className={styles.CtaHeaderButton} >Começar Agora</button>
+      </a>
       </div>
 
 <div className={styles.linearGradientContainer}>

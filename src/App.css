@@ -2,16 +2,25 @@ body{
     background: linear-gradient(to right, rgba(192, 212, 233, 0.5), #ffffff, rgba(192, 212, 233, 0.5));
 
 }
-
+.nav-pills .nav-link{
+    width: 250px;
+    border-radius: 10px !important;
+    margin: 5px;
+    background-color: black;
+    color: white;
+}
 .flex-column{
     flex-direction: row !important;
     display: flex;
     width: 100%;
     justify-content: center;
 }
-
+.nav-pills .nav-link.active{
+background-color: green;
+font-weight: bold;
+}
 .nav-pills .nav-link{
-    background-color: #dce0e6;
+    background-color: #b9c2d0;
     text-align: center;
 }
 
@@ -28,6 +37,7 @@ body{
     }
     .nav-pills .nav-link{
         width: 46% !important;
+        margin: 5px;
         display: flex !important; 
         justify-content: center !important;
         align-items: center !important;

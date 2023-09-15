@@ -1,5 +1,5 @@
 import React from "react";
-import UserExperience from '../assets/UserExperience.png';
+import UserExperience from '../assets/image-removebg-preview.png';
 import './dos.css'
 function ContentDos() {
   return (
@@ -13,7 +13,7 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Funis de Venda:</span><br></br>
+          <span>Funis</span><br></br>
           Jornadas customizadas que conduzem à ação.
         </p>
         </div>
@@ -26,7 +26,7 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Engajamento Estratégico:</span><br></br>
+          <span>Engajamento</span><br></br>
           Comunicação relevante para nutrir e converter leads.
         </p>
         </div>
@@ -39,7 +39,7 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Testes A/B Inteligentes:</span><br></br>
+          <span>Testes A/B</span><br></br>
           Otimização constante para taxas de conversão superiores.
         </p>
         </div>
@@ -52,7 +52,7 @@ function ContentDos() {
         <div><img src={UserExperience} style={{width:'120px'}} alt="" /></div>
         <div>
         <p className="paragrafo">
-          <span>Resultados Mensuráveis:</span><br></br>
+          <span>Resultados</span><br></br>
           Análise precisa para acompanhar seu crescimento.
         </p>
         </div>
